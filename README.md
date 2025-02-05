@@ -3,7 +3,7 @@
 ## Description
 
 Ce bot Discord est conçu pour offrir une fonctionnalité de **Text-to-Speech (TTS)**. Lorsqu'un message est ajouté à la file d'attente, le bot génère un fichier audio à partir du texte et le lit dans un canal vocal du serveur Discord.
-Le message ou les messages ajoutés découlent d'une commande **/lever_main**, qui récupère **l'id** de l'utilisateur et qui gènère donc ce message par exemple : **Jean à levé la main**. Un bouton pour baisser la main est également disponible,
+Le message ou les messages ajoutés découlent d'une commande **/lever_main**, qui récupère **l'id** de l'utilisateur et qui gènère donc ce message par exemple : **Jean a levé la main**. Un bouton pour baisser la main est également disponible,
 lors de l'appel de cette commande. Si, je n'appuie pas sur ce bouton, relancer la commande **/lever_main** suffira pour la baisser. De plus, l'intervenant ou même les élèves ont une méthode **/voir_mains**, qui liste toutes les mains levées,
 ou non.
 J'ai également créé la commande **/deadline** qui sera utile lorsqu'un intervenant donnera un travail à rendre. L'utilisateur renseigne : 
