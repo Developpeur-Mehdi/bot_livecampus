@@ -1,10 +1,12 @@
 # Ignore les fichiers de configuration sensibles
 .env
 *.log
-aide.txt
 
 # Ignore les dossiers contenant des fichiers audio générés
 audio_files/
+
+# Ignore le fichier spécifique aide.txt
+aide.txt
 
 # Ignore les dépendances Python
 __pycache__/
