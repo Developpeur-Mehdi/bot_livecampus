@@ -1,6 +1,7 @@
 # Ignore les fichiers de configuration sensibles
 .env
 *.log
+aide.txt
 
 # Ignore les dossiers contenant des fichiers audio générés
 audio_files/
