@@ -10,7 +10,7 @@ J'ai également créé la commande **/deadline** qui sera utile lorsqu'un interv
 - **la description du travail à rendre**
 - **Le jour du rendu (choix jusqu'à 10 jours en comptant le jour actuel)**
 - **L'heure du rendu (de minuit à 23h)**
-L'avantage de cette commande c'est son autonomie, dès qu'elle est utilisée elle vérifié si le canal textuel **🚧┊𝖽𝖾𝖺𝖽𝗅𝗂𝗇𝖾** existe sur le serveur, si oui elle ajoute la deadline, dans le cas contraire elle crée ce canal.
+L'avantage de cette commande c'est son autonomie, dès qu'elle est utilisée elle vérifie si le canal textuel **🚧┊𝖽𝖾𝖺𝖽𝗅𝗂𝗇𝖾** existe sur le serveur, si oui elle ajoute la deadline, dans le cas contraire elle crée ce canal.
 
 Le bot prend en charge plusieurs serveurs Discord, chaque serveur ayant sa propre file d'attente TTS.
 
