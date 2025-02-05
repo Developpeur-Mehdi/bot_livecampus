@@ -62,4 +62,4 @@ Le faire manuellement :
 
 1. Clone ce repository :
    ```bash
-   git clone https://github.com/ton-utilisateur/nom-du-bot.git
+   git clone https://github.com/Developpeur-Mehdi/bot_livecampus.git
