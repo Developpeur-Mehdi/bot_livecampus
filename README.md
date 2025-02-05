@@ -44,7 +44,7 @@ Création d'un environnement virtuel en python à faire à la racine du dossier 
 - [APSChduler](https://apscheduler.readthedocs.io/en/stable/) : Pour planifier des tâches asynchrones.
 
 ---
-- Pour directement installé toutes les librairies d'un coup, il faut récupérer le fichier **requirements.txt**
+- Pour installé toutes les librairies directement, il faut récupérer le fichier **requirements.txt**
 - **Vérifier** que l'environnement **virtuel** est activé et écrire **pip install -r requirements.txt**
 
 Le faire manuellement :
