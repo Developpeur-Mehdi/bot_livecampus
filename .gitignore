@@ -1,0 +1,14 @@
+# Ignore les fichiers de configuration sensibles
+.env
+*.log
+
+# Ignore les dossiers contenant des fichiers audio générés
+audio_files/
+
+# Ignore les dépendances Python
+__pycache__/
+*.pyc
+
+# Ignore les fichiers système (Windows/Mac)
+.DS_Store
+Thumbs.db

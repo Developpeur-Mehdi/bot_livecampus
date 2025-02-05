@@ -1,0 +1,15 @@
+discord.py
+yt-dlp
+PyNaCl
+psutil
+requests
+apscheduler
+pytz
+tzlocal
+SQLAlchemy
+aiohttp
+sympy
+googlesearch-python
+dateparser
+gtts
+python-dotenv
