@@ -1,9 +1,9 @@
-# Discord Bot - TTS (Text-to-Speech) (Pour LiveCampus)
+# Discord Bot - Notification Main(s) Levée(s)(Pour LiveCampus)
 
 ## Description
 
-Ce bot Discord est conçu pour offrir une fonctionnalité de **Text-to-Speech (TTS)**. Lorsqu'un message est ajouté à la file d'attente, le bot génère un fichier audio à partir du texte et le lit dans un canal vocal du serveur Discord.
-Le message ou les messages ajoutés découlent d'une commande **/lever_main**, qui récupère **l'id** de l'utilisateur et qui gènère donc ce message par exemple : **Jean a levé la main**. Un bouton pour baisser la main est également disponible,
+Ce bot Discord est conçu pour offrir une fonctionnalité de **Notification** via **FFmpeg**. Lorsqu'un message est ajouté à la file d'attente, le bot **lit le fichier .mp3** le joue dans un canal vocal du serveur Discord.
+Un bouton pour baisser la main est également disponible lors de la commande **/lever_main**
 lors de l'appel de cette commande. Si, je n'appuie pas sur ce bouton, relancer la commande **/lever_main** suffira pour la baisser. De plus, l'intervenant ou même les élèves ont une méthode **/voir_mains**, qui liste toutes les mains levées,
 ou non.
 J'ai également créé la commande **/deadline** qui sera utile lorsqu'un intervenant donnera un travail à rendre. L'utilisateur renseigne : 
@@ -14,16 +14,13 @@ L'avantage de cette commande c'est son autonomie, dès qu'elle est utilisée ell
 
 Le bot prend en charge plusieurs serveurs Discord, chaque serveur ayant sa propre file d'attente TTS.
 
-Le bot utilise la bibliothèque **gTTS** (Google Text-to-Speech) pour générer les fichiers audio et se connecte automatiquement aux canaux vocaux pour lire les messages.
-
 ---
 
 ## Fonctionnalités
 
-- **Text-to-Speech** : Convertit les messages textuels en audio et les lit dans un canal vocal.
+- **Notification via .mp3** : Convertit les messages textuels en audio et les lit dans un canal vocal.
 - **Multi-serveurs** : Gère une file d'attente TTS distincte pour chaque serveur Discord où le bot est présent.
 - **Gestion automatique des connexions vocales** : Se connecte automatiquement aux canaux vocaux et se déconnecte lorsqu'il est seul.
-- **Nettoyage des fichiers audio** : Supprime les fichiers audio générés après leur lecture pour libérer de l'espace.
 - **/lever_main, /voir_mains et /deadline**
 
 ---
@@ -39,7 +36,6 @@ Création d'un environnement virtuel en python à faire à la racine du dossier 
 
 - Python 3.8+  
 - [Discord.py](https://discordpy.readthedocs.io/en/stable/) : Bibliothèque pour interagir avec l'API Discord.
-- [gTTS](https://pypi.org/project/gTTS/) : Bibliothèque pour générer du texte en parole.
 - [FFmpeg](https://ffmpeg.org/) : Outil nécessaire pour lire les fichiers audio dans Discord.
 - [APSChduler](https://apscheduler.readthedocs.io/en/stable/) : Pour planifier des tâches asynchrones.
 
@@ -50,7 +46,6 @@ Création d'un environnement virtuel en python à faire à la racine du dossier 
 Le faire manuellement :
 
 - **pip install discord.py**
-- **pip install gtts**
 - **pip install python-dotenv**
 - **pip install apscheduler**
 
