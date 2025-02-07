@@ -15,10 +15,10 @@ class Deadline(commands.Cog):
 
 class DateSelect(discord.ui.Select):
     def __init__(self):
-        # 10 prochains jours
+        # 20 prochains jours
         options = [
             discord.SelectOption(label=(datetime.now() + timedelta(days=i)).strftime("%d %B %Y"), value=str(i))
-            for i in range(10)
+            for i in range(20)
         ]
         super().__init__(placeholder="📅 Sélectionnez une date", options=options)
 
